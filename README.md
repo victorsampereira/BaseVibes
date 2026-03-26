@@ -1,4 +1,4 @@
-# VotoChain / BaseVibes Hackathon
+# BaseVibes Hackathon
 
 BaseVibes e um projeto de hackathon para criar experiencias sociais onchain: um usuario cria uma sala, amigos entram nessa sala em tempo real e, ao final, o criador faz o mint de um NFT/POAP para todos os participantes.
 
