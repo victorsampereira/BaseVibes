@@ -1,6 +1,6 @@
 # BaseVibes Hackathon
 
-BaseVibes e um projeto de hackathon para criar experiencias sociais onchain: um usuario cria uma sala, amigos entram nessa sala em tempo real e, ao final, o criador faz o mint de um NFT/POAP para todos os participantes.
+BaseVibes é um projeto de hackathon para criar experiencias sociais onchain: um usuario cria uma sala, amigos entram nessa sala em tempo real e, ao final, o criador faz o mint de um NFT/POAP para todos os participantes.
 
 O repositorio esta organizado como um monorepo simples com tres partes:
 
@@ -251,7 +251,7 @@ O repositorio representa um prototipo funcional em partes, mas ainda nao esta pr
 - Sem indexacao dos NFTs mintados.
 - Sem backend para upload de metadata para IPFS.
 
-## Melhorias Recomendadas
+## Melhorias para o projeto
 
 - corrigir o contrato para suportar metadata corretamente;
 - alinhar o projeto Hardhat ao modo ESM ou fixar uma stack compativel;
@@ -288,14 +288,6 @@ npm test
 ```
 
 Tambem esta como placeholder.
-
-## Validacao Feita Neste Repositorio
-
-Durante a revisao deste README, foi verificado que:
-
-- `2-frontend-miniapp` nao gera build no estado atual por falta de dependencia;
-- `1-smart-contract` nao compila no estado atual por incompatibilidade de configuracao do Hardhat;
-- o servidor WebSocket possui codigo de inicializacao, mas nao foi mantido rodando como processo persistente nesta sessao.
 
 ## Licenca
 
